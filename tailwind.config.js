@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       width: {
         searchBarWidth: "700px",
+        container: "1400px",
       },
       colors: {
         navbar: "#2E2E2E",

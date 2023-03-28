@@ -4,8 +4,8 @@ import { iconData } from "../data/iconData";
 
 const NavBar = () => {
   return (
-    <div className="fixed w-full  text-white bg-navbar text-xl">
-      <nav className="flex justify-center text-center m-3">
+    <div className="flex justify-center text-white bg-black text-xl">
+      <nav className="flex justify-center text-center m-3 w-container">
         <span className="rounded-md px-2 py-1 font-bold bg-logo ">
           <Link to="/">CMDb</Link>
         </span>
@@ -17,7 +17,7 @@ const NavBar = () => {
           />
           <button className="px-2">{iconData.search}</button>
         </div>
-        <div className="w-96 flex justify-evenly">
+        <div className="w-96 flex justify-between ml-5">
           <label className="flex cursor-pointer items-center">
             <button className="mr-1">{iconData.menuIcon}</button>
             <span>Menu</span>

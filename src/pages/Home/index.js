@@ -1,12 +1,18 @@
-import React from 'react'
-import NavBar from '../../components/NavBar'
+import React from "react";
+import NavBar from "../../components/NavBar";
+import Featured from "./components/Featured";
 
-const index = () => {
+const Home = () => {
   return (
     <>
-      <NavBar/>
+      <NavBar />
+      <div className="flex justify-center">
+        <section id="featured" className="text-white ">
+          <Featured />
+        </section>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default index
+export default Home;
